@@ -1,31 +1,35 @@
-Id				Ожидаемый результат 	Фактический результат
-1
+<?xml version="1.0" encoding="utf-8"?>
+	<report>
+		<Id>1<Id>				
 
-	Заголовок
-Добавление товара в корзину
+		<title>"Adding an item to the cart"<title>
 
-предусловие
-Корзина пуста	
+		<Preconditions>"cart is empty"<Preconditions>
+		<Environment>"Windows10,GoogleChrom_Version 102.0.5005.115"<Environment>
 
-Шаги воспроизведения
+		<steps yo reproduce>
 
-открыть https://shop.nag.ru/
-Пролистать в низ до рекомендованных товаров
-открыть страницу первого товара
-в количестве товаров выбрать 2
-нажать кнопку добавить в корзину
+		[ "open https://shop.nag.ru/",
+		"Scroll down to recommended products",
+		"open the page of the first product" ,
+		"in the number of products, choose 2",
+		"click the add to cart button" ]
+		<steps yo reproduce>
 
-Ожидаемый результат
-"Сайт открывается 
-Все элементы отображаются в соответствии с макетом"
-Товары отображаются на странице
-Открывается страница товара
-В поле количества отображается 2 товара
-"В правом верхнем углу появляется поп-ап с уведомлением о добавлении товара в корзину и кнопкой перейти в корзину
-В корзине появился один товар в количестве 2 штуки"
+		<Expected Result>
+		["The site opens"
+		"All elements are displayed according to the layout",
+		"Products are displayed on the page",
+		"The product page opens",
+		"The quantity field displays 2 items",
+		"A pop-up appears in the upper right corner with a notification about adding an item to the cart and a go to cart button",
+		"One item appeared in the basket in the amount of 2 pieces"]
+		<Expected Result>
 
-	Фактический результат
-Прогружается пустой шаблон страници
+		<Actual Result>
+		["An empty page template is loaded"]
+		<Actual Result>
 
-severity: Major
-priority : medium
+		<severity>"Major"<severity>
+		<priority>"medium"<priority>
+	<report>
