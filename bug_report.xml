@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<report>
-		<Id>1<Id>				
+		<Id>1</Id>				
 
-		<title>"Adding an item to the cart"<title>
+		<title>"Adding an item to the cart"</title>
 
-		<Preconditions>"cart is empty"<Preconditions>
-		<Environment>"Windows10,GoogleChrom_Version 102.0.5005.115"<Environment>
+		<Preconditions>"cart is empty"</Preconditions>
+		<Environment>"Windows10,GoogleChrom_Version 102.0.5005.115"</Environment>
 
 		<steps yo reproduce>
 
@@ -14,7 +14,7 @@
 		"open the page of the first product" ,
 		"in the number of products, choose 2",
 		"click the add to cart button" ]
-		<steps yo reproduce>
+		</steps yo reproduce>
 
 		<Expected Result>
 		["The site opens"
@@ -24,12 +24,12 @@
 		"The quantity field displays 2 items",
 		"A pop-up appears in the upper right corner with a notification about adding an item to the cart and a go to cart button",
 		"One item appeared in the basket in the amount of 2 pieces"]
-		<Expected Result>
+		</Expected Result>
 
 		<Actual Result>
 		["An empty page template is loaded"]
-		<Actual Result>
+		</Actual Result>
 
-		<severity>"Major"<severity>
-		<priority>"medium"<priority>
+		<severity>"Major"</severity>
+		<priority>"medium"</priority>
 	<report>
