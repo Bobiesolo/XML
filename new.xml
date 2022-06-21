@@ -1,6 +1,8 @@
-NAME: NIKolja
-Surname: Lapin
-Age: 24
-Patronomic: Konctantinovich
-NoP: two
-expected salary: 1000- 1250 $
+<?xml version="1.0" encoding="utf-8"?>
+
+<NAME>NIKolja<NAME>
+<Surname>Lapin<Surname>
+<Age>24<Age>
+<Patronomic>Konctantinovich<Patronomic>
+<NoP_pets>two<NoP_pets>
+<expected_salary>1000-1250$<expected_salary>
